@@ -1,8 +1,12 @@
-import { Button } from "@/components/ui/ui/button";
-export default function Home() {
+import {prisma}  from "@/lib/db";
+
+const Page = () => {
+
   return (
     <div>
-      <Button>Click Me</Button>
+      Hello world
     </div>
   );
 }
+
+export default Page;
